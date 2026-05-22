@@ -89,8 +89,10 @@ def juego_2(): # Numero secreto.
     acerto = "no"
     while intentos > 0 and acerto == "no":
         print(f"\nIntentos restantes: {intentos}")
-        numJugador = int(input("Ingrese un número entre 1 y 100: "))
-        # while not numJugador.isdigit() or int(numJugador) > 100 or int(numJugador) < 1:
+        numJugador = int(input("Ingrese un número entre 1 y 100: ")).isdigit()
+
+    
+        # da igual que el numero que se ingresa no este entre 1 y 100, el juego continua como si nada.
         if numJugador == numSecreto:
             acerto = "si"
             aciertos = aciertos + 1
@@ -132,8 +134,19 @@ def juego_4(): # Dedos: Par o impar.
         while not apuesta.isdigit():
             apuesta = input("\nEntrada inválida. Ingrese un número válido: ")
         apuesta = int(apuesta)
+        
+        # --- FILTRO DE RANGO ---
         while apuesta > creditos or apuesta <= 0:
-            apuesta = int(input("\nIngrese una cantidad de créditos válida: "))
+            # Pedimos el dato siempre como texto en la variable base
+            apuesta = input("\nIngrese una cantidad de créditos válida: ")
+            
+            # barremos las letras si es que puso alguna
+            while not apuesta.isdigit():
+                apuesta = input("\nEntrada inválida. Ingrese un número válido: ")
+            
+            # 👇 LA CLAVE: El casteo se hace ACÁ, afuera del while de letras,
+            # asegurando que 'apuesta' SIEMPRE suba al inicio del bucle como un INT.
+            apuesta = int(apuesta)
         eleccion = input("\nLos dados fueron lanzados. ¿Es la suma par o impar? (P/I): ").upper()
         while (eleccion != "P" and eleccion != "I"):
             eleccion = input("\nEntrada inválida. Ingrese 'P' para par o 'I' para impar: ").upper()
