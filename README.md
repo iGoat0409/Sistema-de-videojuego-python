@@ -38,8 +38,7 @@ Sistema modular de juegos de entretenimiento desarrollado como proyecto académi
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone <tu-repositorio-url>
-cd Sistema-de-videojuego-python
+git clone https://github.com/iGoat0409/Sistema-de-videojuego-python.git
 ```
 
 ### 2. Verificar Instalación de Python
@@ -149,4 +148,11 @@ Este sistema incluye juegos de apuesta. Se recomienda **jugar con moderación** 
 - ⚠️ **Responsabilidad**: Los juegos de azar pueden ser perjudiciales para la salud
 - 💡 **Entretenimiento**: Juega únicamente por diversión, no como fuente de ingresos
 - 📞 **Asistencia**: En caso de necesitar ayuda: **0800-444-58346**
+
+
+## Integrantes
+- **Nicolas Santiago**
+- **Diego Aimar Longo**
+- **Valentina Vercellone**
+- **Juan Mateo Maidana**
 
