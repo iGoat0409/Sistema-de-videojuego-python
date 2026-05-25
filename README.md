@@ -3,23 +3,6 @@
 Un sistema integral de juegos interactivos desarrollado en Python, que ofrece múltiples opciones de entretenimiento con seguimiento de estadísticas en tiempo real.
 
 [![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)]()
-
----
-
-## 📋 Tabla de Contenidos
-
-- [Descripción](#descripción)
-- [Características](#características)
-- [Requisitos](#requisitos)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Juegos Disponibles](#juegos-disponibles)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Advertencias Importantes](#advertencias-importantes)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
 
 ---
 
@@ -42,11 +25,11 @@ Sistema modular de juegos de entretenimiento desarrollado como proyecto académi
 
 ## 🔧 Requisitos
 
-|     Requisito     |         Versión       |
-|-------------------|-----------------------+
-|      Python       |    3.6 o superior     |
-| Sistema Operativo | Windows, macOS, Linux |
-|     Memoria       |     Mínimo 50 MB      |
+| Requisito         | Versión / Detalle        |
+|-------------------|--------------------------|
+| Python            | 3.6 o superior           |
+| Sistema Operativo | Windows, macOS o Linux   |
+| Memoria           | Mínimo 50 MB             |
 
 
 
